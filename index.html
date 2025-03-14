@@ -742,8 +742,9 @@
         <h2 class="section-title">Apply Now</h2>
         <div class="form-container">
             <div id="form-status" class="form-status"></div>
+            <!-- FormSubmit implementation - exactly as per their instructions -->
             <form action="https://formsubmit.co/antonioperez.04@outlook.com" method="POST">
-                <!-- FormSubmit required fields -->
+                <!-- FormSubmit additional configuration -->
                 <input type="hidden" name="_subject" value="New BLOODLINE Job Application">
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="thank-you.html">
@@ -778,16 +779,16 @@
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="insurance-license">Do you currently hold an insurance license?</label>
-                    <select class="form-control" id="insurance-license" name="insurance_license">
+                    <label for="insurance_license">Do you currently hold an insurance license?</label>
+                    <select class="form-control" id="insurance_license" name="insurance_license">
                         <option value="yes">Yes</option>
                         <option value="no">No</option>
                         <option value="in-progress">In Progress</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="resume">Resume Link (Optional)</label>
-                    <input type="url" class="form-control" id="resume" name="resume" placeholder="Add a link to your resume (Google Drive, Dropbox, etc.)">
+                    <label for="resume_link">Resume Link (Optional)</label>
+                    <input type="url" class="form-control" id="resume_link" name="resume_link" placeholder="Add a link to your resume (Google Drive, Dropbox, etc.)">
                     <small style="display: block; margin-top: 5px; color: #666;">Please upload your resume to a cloud service and share the link.</small>
                 </div>
                 <div class="form-group">
